@@ -31,49 +31,34 @@
     [self setFrame];
     [self _setBg:[UIImage imageNamed:@"大树中部_竞技场.png"]];
     
-    //设置主角
-    [self setPlayerType:@"left"];
-    [self addChild:self.player];
+  
     
     if ([kDeviceVersion floatValue] < 8.0) {
         
     }else{
         _bg = (SKSpriteNode *)[self childNodeWithName:@"bg"];
     }
- 
+    //设置主角
+    [self setPlayerType:@"left"];
+    [_bg addChild:self.player];
+    
     //墙壁
-    [self createWalls:7 superSence:_bg];
+    [self createWalls:12 superSence:_bg];
     
     //大树国中部node
-    [self _createMiddleNode];
+    [self setchangeSenceWithSuperNode:_bg key:kSence_treeMiddle];
     
     //大树国顶部node
-    [self _createTopNode];
+    [self setchangeSenceWithSuperNode:_bg key:kSence_treeTop];
     
     //JJC里边
-    [self _createJJC];
+    [self setchangeSenceWithSuperNode:_bg key:kSence_JJC];
     
-    [self setMonsterWithSuperSence:self];
-
+    //怪物
+    [self setMonsterWithSuperSence:_bg imageNames:@[@"史莱姆.png",@"蝙蝠.png",@"史莱姆.png"]];
 }
 
-- (void)_createJJC
-{
-    SKSpriteNode *node = (SKSpriteNode *)[_bg childNodeWithName:kSence_JJC];
-    [self setChangeSenceNode:node key:kSence_JJC];
-}
 
-- (void)_createMiddleNode
-{
-    SKSpriteNode *node = (SKSpriteNode *)[_bg childNodeWithName:kSence_treeMiddle];
-    [self setChangeSenceNode:node key:kSence_treeMiddle];
-}
-
-- (void)_createTopNode
-{
-    SKSpriteNode *node = (SKSpriteNode *)[_bg childNodeWithName:kSence_treeTop];
-    [self setChangeSenceNode:node key:kSence_treeTop];
-}
 
 #pragma mark 碰撞检测
 - (void)didBeginContact:(SKPhysicsContact *)contact
@@ -99,5 +84,28 @@
     }
 }
 
+
+- (BOOL)moveActionWithkey:(NSString *)key x:(CGFloat)x y:(CGFloat)y
+{
+    BOOL isCut = [super moveActionWithkey:key x:x y:y];
+    
+    if (isCut) {
+        return NO;
+    }
+    
+    // NSLog(@"%lf",self.player.position.x);
+    
+    _bg.position = CGPointMake(_bg.position.x - x, _bg.position.y);
+    
+    if (_bg.position.x < - self.screenWidth || self.player.position.x > self.screenWidth + self.screenWidth / 2.0) {
+        _bg.position = CGPointMake(- self.screenWidth, _bg.position.y);
+    }else if(_bg.position.x > 0 || self.player.position.x < self.screenWidth / 2.0){
+        _bg.position = CGPointMake(0, _bg.position.y);
+    }
+    
+  
+    return YES;
+    
+}
 
 @end

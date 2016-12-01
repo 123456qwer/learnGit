@@ -95,7 +95,7 @@
     
     if ([A.userData objectForKey:kSence_treeMiddleJJC]) {
         
-        [self presentSceneWithPosition:CGPointMake(135 + self.player.size.width / 2.0 + 5,self.screenHeight - self.player.size.height / 2.0 - 5) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"down"][0] key:kSence_treeMiddleJJC tra:nil];
+        [self presentSceneWithPosition:CGPointMake(135 + self.player.size.width / 2.0 + 5,self.screenHeight - self.player.size.height / 2.0 - 10) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"down"][0] key:kSence_treeMiddleJJC tra:nil];
     }
     
     else if([A.userData objectForKey:kSence_imperialPlace])

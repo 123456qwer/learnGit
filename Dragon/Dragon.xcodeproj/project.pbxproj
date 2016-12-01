@@ -160,6 +160,7 @@
 		43AB313E1DF01491009B9908 /* JJC_right.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AB313D1DF01491009B9908 /* JJC_right.m */; };
 		43AB31401DF0150A009B9908 /* JJC_right1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AB313F1DF0150A009B9908 /* JJC_right1.png */; };
 		43AB31421DF0151B009B9908 /* JJC_right.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43AB31411DF0151B009B9908 /* JJC_right.sks */; };
+		43AB31441DF01F70009B9908 /* JJC_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AB31431DF01F70009B9908 /* JJC_middle.png */; };
 		43B4A1331D89017B00AF97EB /* 按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4A1311D89017B00AF97EB /* 按下.png */; };
 		43B4A1341D89017B00AF97EB /* 抬起.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4A1321D89017B00AF97EB /* 抬起.png */; };
 		43B4A13E1D891B9C00AF97EB /* 金钱物品.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4A13B1D891B9C00AF97EB /* 金钱物品.png */; };
@@ -375,6 +376,7 @@
 		43AB313D1DF01491009B9908 /* JJC_right.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJC_right.m; sourceTree = "<group>"; };
 		43AB313F1DF0150A009B9908 /* JJC_right1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JJC_right1.png; sourceTree = "<group>"; };
 		43AB31411DF0151B009B9908 /* JJC_right.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JJC_right.sks; sourceTree = "<group>"; };
+		43AB31431DF01F70009B9908 /* JJC_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JJC_middle.png; sourceTree = "<group>"; };
 		43B4A1311D89017B00AF97EB /* 按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按下.png"; sourceTree = "<group>"; };
 		43B4A1321D89017B00AF97EB /* 抬起.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抬起.png"; sourceTree = "<group>"; };
 		43B4A13B1D891B9C00AF97EB /* 金钱物品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金钱物品.png"; sourceTree = "<group>"; };
@@ -584,6 +586,7 @@
 			isa = PBXGroup;
 			children = (
 				43AB313F1DF0150A009B9908 /* JJC_right1.png */,
+				43AB31431DF01F70009B9908 /* JJC_middle.png */,
 				43AB313A1DF010C0009B9908 /* JJC_left1.png */,
 				43E67CBA1DE3F882009B7604 /* 传送门1_1.png */,
 				4311CB6F1DE2D71C00B46C81 /* 传送门1.png */,
@@ -976,6 +979,7 @@
 				43A1AF4C1D7FAF090078E01F /* LaunchScreen.storyboard in Resources */,
 				4395551E1DA8A05A008CB0B4 /* JYMonsterPastureland.sks in Resources */,
 				43A1AFA91D7FAF530078E01F /* 红砖墙.jpg in Resources */,
+				43AB31441DF01F70009B9908 /* JJC_middle.png in Resources */,
 				43A1AFB71D7FAF530078E01F /* 孵化室背景.png in Resources */,
 				43A1AF9A1D7FAF530078E01F /* player4.png in Resources */,
 				4368FAE21DEEBD9000047A26 /* jjc.png in Resources */,
