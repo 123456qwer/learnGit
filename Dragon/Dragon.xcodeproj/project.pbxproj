@@ -154,6 +154,12 @@
 		43A1B0371D7FB01F0078E01F /* JYDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1B0311D7FB01F0078E01F /* JYDataBase.m */; };
 		43A1B0381D7FB01F0078E01F /* JYPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1B0331D7FB01F0078E01F /* JYPlayerManager.m */; };
 		43A1B03A1D7FB0D60078E01F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A1B0391D7FB0D60078E01F /* libsqlite3.0.tbd */; };
+		43AB31371DF01081009B9908 /* JJC_left.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AB31361DF01081009B9908 /* JJC_left.m */; };
+		43AB31391DF010A7009B9908 /* JJC_left.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43AB31381DF010A7009B9908 /* JJC_left.sks */; };
+		43AB313B1DF010C0009B9908 /* JJC_left1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AB313A1DF010C0009B9908 /* JJC_left1.png */; };
+		43AB313E1DF01491009B9908 /* JJC_right.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AB313D1DF01491009B9908 /* JJC_right.m */; };
+		43AB31401DF0150A009B9908 /* JJC_right1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AB313F1DF0150A009B9908 /* JJC_right1.png */; };
+		43AB31421DF0151B009B9908 /* JJC_right.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43AB31411DF0151B009B9908 /* JJC_right.sks */; };
 		43B4A1331D89017B00AF97EB /* 按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4A1311D89017B00AF97EB /* 按下.png */; };
 		43B4A1341D89017B00AF97EB /* 抬起.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4A1321D89017B00AF97EB /* 抬起.png */; };
 		43B4A13E1D891B9C00AF97EB /* 金钱物品.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B4A13B1D891B9C00AF97EB /* 金钱物品.png */; };
@@ -363,6 +369,12 @@
 		43A1B0321D7FB01F0078E01F /* JYPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPlayerManager.h; sourceTree = "<group>"; };
 		43A1B0331D7FB01F0078E01F /* JYPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPlayerManager.m; sourceTree = "<group>"; };
 		43A1B0391D7FB0D60078E01F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		43AB31361DF01081009B9908 /* JJC_left.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJC_left.m; sourceTree = "<group>"; };
+		43AB31381DF010A7009B9908 /* JJC_left.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JJC_left.sks; sourceTree = "<group>"; };
+		43AB313A1DF010C0009B9908 /* JJC_left1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JJC_left1.png; sourceTree = "<group>"; };
+		43AB313D1DF01491009B9908 /* JJC_right.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJC_right.m; sourceTree = "<group>"; };
+		43AB313F1DF0150A009B9908 /* JJC_right1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JJC_right1.png; sourceTree = "<group>"; };
+		43AB31411DF0151B009B9908 /* JJC_right.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JJC_right.sks; sourceTree = "<group>"; };
 		43B4A1311D89017B00AF97EB /* 按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按下.png"; sourceTree = "<group>"; };
 		43B4A1321D89017B00AF97EB /* 抬起.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抬起.png"; sourceTree = "<group>"; };
 		43B4A13B1D891B9C00AF97EB /* 金钱物品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金钱物品.png"; sourceTree = "<group>"; };
@@ -494,6 +506,10 @@
 			children = (
 				4368FADD1DEEBD0A00047A26 /* JYJJC.m */,
 				4368FADF1DEEBD6C00047A26 /* JYJJC.sks */,
+				43AB313D1DF01491009B9908 /* JJC_right.m */,
+				43AB31411DF0151B009B9908 /* JJC_right.sks */,
+				43AB31361DF01081009B9908 /* JJC_left.m */,
+				43AB31381DF010A7009B9908 /* JJC_left.sks */,
 			);
 			path = JJC;
 			sourceTree = "<group>";
@@ -567,6 +583,8 @@
 		43A1AF601D7FAF530078E01F /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				43AB313F1DF0150A009B9908 /* JJC_right1.png */,
+				43AB313A1DF010C0009B9908 /* JJC_left1.png */,
 				43E67CBA1DE3F882009B7604 /* 传送门1_1.png */,
 				4311CB6F1DE2D71C00B46C81 /* 传送门1.png */,
 				437F02431DED5A500039025A /* door1_4.png */,
@@ -940,6 +958,7 @@
 				43A1AFB91D7FAF530078E01F /* 虾2.png in Resources */,
 				43A1AFB61D7FAF530078E01F /* 孵化室_桌椅.png in Resources */,
 				4331435B1D868C1C00AA122C /* 大树国顶部.png in Resources */,
+				43AB31401DF0150A009B9908 /* JJC_right1.png in Resources */,
 				43874D091DA9DF8D0064498C /* 鬃毛怪.png in Resources */,
 				43E67CBB1DE3F882009B7604 /* 传送门1_1.png in Resources */,
 				439555161DA89177008CB0B4 /* Default-568h@2x.png in Resources */,
@@ -947,6 +966,7 @@
 				4387C50D1D8CD1C900357CDD /* 对话框.png in Resources */,
 				43A1B0151D7FAFCD0078E01F /* 登录画面.png in Resources */,
 				43ECEEC61D800B850022B786 /* 孵化室背景2_1.png in Resources */,
+				43AB313B1DF010C0009B9908 /* JJC_left1.png in Resources */,
 				43E67CB91DE3EB87009B7604 /* JYDoor1_1.sks in Resources */,
 				43A1AFA01D7FAF530078E01F /* 墙.png in Resources */,
 				43A1AFAE1D7FAF530078E01F /* door5.png in Resources */,
@@ -1011,6 +1031,7 @@
 				43A1AFAA1D7FAF530078E01F /* door1.png in Resources */,
 				436667E31D81081000FAC193 /* 孵化室_npc2_3.png in Resources */,
 				437F02491DED5ABC0039025A /* JYDoor1_4.sks in Resources */,
+				43AB31421DF0151B009B9908 /* JJC_right.sks in Resources */,
 				4331434A1D86472600AA122C /* 云2.png in Resources */,
 				43A1AFA11D7FAF530078E01F /* 好哥布林.png in Resources */,
 				433143491D86472600AA122C /* 云1.png in Resources */,
@@ -1019,6 +1040,7 @@
 				43A1AFAC1D7FAF530078E01F /* door3.png in Resources */,
 				43A1AFAF1D7FAF530078E01F /* door6.png in Resources */,
 				43B4A1401D891B9C00AF97EB /* 血量.png in Resources */,
+				43AB31391DF010A7009B9908 /* JJC_left.sks in Resources */,
 				4373BBD21DA8F00C00B2729B /* JYTreeMiddleJJC.sks in Resources */,
 				436667E51D810B6000FAC193 /* 书架.png in Resources */,
 				435320E81DAB43B600F0E9B3 /* 蝙蝠.png in Resources */,
@@ -1070,6 +1092,7 @@
 				43A1B0341D7FB01F0078E01F /* BaseScene.m in Sources */,
 				43A1AFF81D7FAFBC0078E01F /* ViewController+MASAdditions.m in Sources */,
 				43CABFCB1D87DACF008AC597 /* JYImperialPlace.m in Sources */,
+				43AB313E1DF01491009B9908 /* JJC_right.m in Sources */,
 				43A1B0141D7FAFCD0078E01F /* JYStartGame.m in Sources */,
 				436667F31D816FC000FAC193 /* JYStoreScene.m in Sources */,
 				433143591D8682F200AA122C /* JYTreeTop.m in Sources */,
@@ -1077,6 +1100,7 @@
 				43E67CB71DE3EB31009B7604 /* JYDoor1_1.m in Sources */,
 				43A1B0241D7FAFE40078E01F /* JYOperateBtn.m in Sources */,
 				43A1B0231D7FAFE40078E01F /* DownBtn.m in Sources */,
+				43AB31371DF01081009B9908 /* JJC_left.m in Sources */,
 				4333446F1D93CD24005DFDCE /* JYMonsterPastureland.m in Sources */,
 				437D41A01DACD501007EEC43 /* JYMonsterCell.m in Sources */,
 				43A1AFCD1D7FAF9B0078E01F /* JYMonsterModel.m in Sources */,

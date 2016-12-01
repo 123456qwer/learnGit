@@ -25,6 +25,8 @@
 #define kSence_door1_1      @"JYDoor1_1"   //
 #define kSence_door1_4      @"JYDoor1_4"   
 #define kSence_JJC          @"JYJJC"       //JJC
+#define kSence_JJC_left     @"JJC_left"
+#define kSence_JJC_right    @"JJC_right"
 
 #define kSence_text @"TextScene"
 

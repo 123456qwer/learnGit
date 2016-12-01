@@ -655,6 +655,12 @@
     }
 }
 
+- (void)setchangeSenceWithSuperNode:(SKSpriteNode *)superNode key:(NSString *)key
+{
+    SKSpriteNode *node = (SKSpriteNode *)[superNode childNodeWithName:key];
+    [self setChangeSenceNode:node key:key];
+}
+
 - (void)setChangeSenceNode:(SKSpriteNode *)node
                        key:(NSString *)key
 {

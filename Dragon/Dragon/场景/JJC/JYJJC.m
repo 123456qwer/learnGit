@@ -47,18 +47,18 @@
     [self createWalls:34 superSence:_bg];
     
     //JYTreeMiddleJJC
-    [self _createMiddleJJC];
+    [self setchangeSenceWithSuperNode:_bg key:kSence_treeMiddleJJC];
+    
+    //JJC_LEFT
+    [self setchangeSenceWithSuperNode:_bg key:kSence_JJC_left];
+    
+    //JJC_RIGHT
+    [self setchangeSenceWithSuperNode:_bg key:kSence_JJC_right];
     
     //怪物
     [self setMonsterWithSuperSence:_bg imageNames:@[@"史莱姆.png",@"蝙蝠.png",@"史莱姆.png"]];
 }
 
-- (void)_createMiddleJJC
-{
-    SKSpriteNode *node = (SKSpriteNode *)[_bg childNodeWithName:kSence_treeMiddleJJC];
-    [self setChangeSenceNode:node key:kSence_treeMiddleJJC];
-    
-}
 
 
 - (BOOL)moveActionWithkey:(NSString *)key x:(CGFloat)x y:(CGFloat)y
@@ -101,7 +101,16 @@
         [self presentSceneWithPosition:CGPointMake(330, 175) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"down"][0] key:kSence_treeMiddleJJC tra:nil];
     }
     
+    else if([A.userData objectForKey:kSence_JJC_left]){
     
+    [self presentSceneWithPosition:CGPointMake(365, 30) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"up"][0] key:kSence_JJC_left tra:nil];
+        
+    }
+    
+    else if([A.userData objectForKey:kSence_JJC_right]){
+    
+      [self presentSceneWithPosition:CGPointMake(365, 30) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"up"][0] key:kSence_JJC_right tra:nil];
+    }
 }
 
 @end

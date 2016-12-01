@@ -42,7 +42,7 @@
  *  切换场景
  *
  *  @param position 要显示的场景人物出现坐标
- *  @param texture  任务朝向
+ *  @param texture  人物朝向
  *  @param key      要出现的class名
  */
 - (void)presentSceneWithPosition:(CGPoint )position
@@ -101,6 +101,7 @@
 - (void)setChangeSenceNode:(SKSpriteNode *)node
                        key:(NSString *)key;
 
+- (void)setchangeSenceWithSuperNode:(SKSpriteNode *)superNode key:(NSString *)key;
 
 
 
