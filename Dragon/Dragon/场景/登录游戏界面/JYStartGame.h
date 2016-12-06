@@ -85,13 +85,22 @@
 @end
 
 
-//JJC
 @interface JYJJC : BaseScene
 @end
 
 @interface JJC_left : BaseScene
 @end
+
 @interface JJC_right : BaseScene
+@end
+
+@interface JJC_left2 : BaseScene
+@end
+
+@interface JYPrinceDoor : BaseScene
+@end
+
+@interface JYWell : BaseScene
 @end
 
 //测试

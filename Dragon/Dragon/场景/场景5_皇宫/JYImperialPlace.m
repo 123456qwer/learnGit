@@ -63,66 +63,20 @@ static NSString *key_imperial1 = @"key_imperial1";
     [self setPlayerType:@"left"];
     [_imperialBG addChild:self.player];
     
+    //pastureland
+    [self setchangeSenceWithSuperNode:_imperialBG key:kSence_monsterPastureland];
     
-    //JYTreeTop
-    [self _createTreeTopNode];
+    //Collection
+    [self setchangeSenceWithSuperNode:_imperialBG key:kSence_imperialCollection];
     
-    //JYImperialCollection
-    [self _createImperialCollectionNode];
+    //prison
+    [self setchangeSenceWithSuperNode:_imperialBG key:kSence_prison1];
     
-    //JYMonsterPastureland
-    [self _createMonsterPastureland];
+    //TreeTop
+    [self setchangeSenceWithSuperNode:_imperialBG key:kSence_treeTop];
     
-    //JYPrison1
-    [self _createPrison1];
     
-    //墙
-    [self _createWalls];
-    
-    //[self setMonsterWithSuperSence:_imperialBG];
       [self setMonsterWithSuperSence:_imperialBG imageNames:@[@"史莱姆.png",@"蝙蝠.png",@"史莱姆.png"]];
-}
-
-- (void)_createPrison1
-{
-    SKSpriteNode *node = (SKSpriteNode *)[_imperialBG childNodeWithName:@"JYPrison1"];
-    [self setChangeSenceNode:node key:kSence_prison1];
-}
-
-- (void)_createMonsterPastureland
-{
-    [self setChangeSenceNode:@{@"x":@500,@"y":@120,@"width":@1,@"height":@1} key:kSence_monsterPastureland superSence:_imperialBG];
-}
-
-
-- (void)_createImperialCollectionNode
-{
-    [self setChangeSenceNode:@{@"x":@667,@"y":@(430) ,@"width":@1,@"height":@50} key:kSence_imperialCollection superSence:_imperialBG];
-}
-
-- (void)_createTreeTopNode
-{
-    [self setChangeSenceNode:@{@"x":@265,@"y":@0,@"width":@135,@"height":@1} key:kSence_treeTop superSence:_imperialBG];
-}
-
-
-
-- (void)_createWalls{
-
-    NSArray *walls = @[@[@70,@0,@1,@(2*kScreenHeight)],
-                       @[@70,@50,@200,@(1)],
-                       @[@(70+200),@0,@1,@(50)],
-                       @[@400,@0,@1,@50],
-                       @[@400,@50,@270,@1],
-                       @[@600,@0,@1,@430],
-                       @[@600,@430,@70,@1],
-                       @[@600,@510,@70,@1],
-                       @[@600,@510,@1,@(kScreenHeight)],
-                       @[@0,@690,@535,@1],
-                       @[@205,@580,@255,@100]];
-    
-    [self _createWalls:walls superSence:_imperialBG];
-
 }
 
 
@@ -195,9 +149,7 @@ static NSString *key_imperial1 = @"key_imperial1";
         
         [self presentSceneWithPosition:CGPointMake(230,120)scenePosition:CGPointMake(0, 0)  texture:self.dic_player[@"right"][0] key:kSence_prison1 tra:nil];
     }
-
-    
-    
+ 
 }
 
 @end

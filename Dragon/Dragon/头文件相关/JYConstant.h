@@ -27,6 +27,9 @@
 #define kSence_JJC          @"JYJJC"       //JJC
 #define kSence_JJC_left     @"JJC_left"
 #define kSence_JJC_right    @"JJC_right"
+#define kSence_JJC_left2    @"JJC_left2"
+#define kSence_PrinceDoor   @"JYPrinceDoor"
+#define kSence_well         @"JYWell"
 
 #define kSence_text @"TextScene"
 

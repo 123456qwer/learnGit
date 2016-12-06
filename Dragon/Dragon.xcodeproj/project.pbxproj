@@ -60,6 +60,16 @@
 		437F02441DED5A500039025A /* door1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 437F02431DED5A500039025A /* door1_4.png */; };
 		437F02471DED5A620039025A /* JYDoor1_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 437F02461DED5A620039025A /* JYDoor1_4.m */; };
 		437F02491DED5ABC0039025A /* JYDoor1_4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 437F02481DED5ABC0039025A /* JYDoor1_4.sks */; };
+		43864F7A1DF50D390089BDDE /* JJC_left2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43864F791DF50D390089BDDE /* JJC_left2.png */; };
+		43864F7D1DF50D4F0089BDDE /* JJC_left2.m in Sources */ = {isa = PBXBuildFile; fileRef = 43864F7C1DF50D4F0089BDDE /* JJC_left2.m */; };
+		43864F7F1DF50D9C0089BDDE /* JJC_left2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43864F7E1DF50D9C0089BDDE /* JJC_left2.sks */; };
+		43864F821DF515070089BDDE /* JYPrinceDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43864F811DF515070089BDDE /* JYPrinceDoor.m */; };
+		43864F841DF515650089BDDE /* JYPrinceDoor.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43864F831DF515650089BDDE /* JYPrinceDoor.sks */; };
+		43864F861DF5157F0089BDDE /* princeDoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 43864F851DF5157F0089BDDE /* princeDoor.png */; };
+		43864F881DF522250089BDDE /* middleBook.png in Resources */ = {isa = PBXBuildFile; fileRef = 43864F871DF522250089BDDE /* middleBook.png */; };
+		43864F8B1DF549DC0089BDDE /* JYWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43864F8A1DF549DC0089BDDE /* JYWell.m */; };
+		43864F8D1DF54A110089BDDE /* JYWell.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43864F8C1DF54A110089BDDE /* JYWell.sks */; };
+		43864F8F1DF54A1C0089BDDE /* well.png in Resources */ = {isa = PBXBuildFile; fileRef = 43864F8E1DF54A1C0089BDDE /* well.png */; };
 		43874D091DA9DF8D0064498C /* 鬃毛怪.png in Resources */ = {isa = PBXBuildFile; fileRef = 43874D081DA9DF8D0064498C /* 鬃毛怪.png */; };
 		43874D0B1DA9EFE70064498C /* 小蝙蝠.png in Resources */ = {isa = PBXBuildFile; fileRef = 43874D0A1DA9EFE70064498C /* 小蝙蝠.png */; };
 		43874D111DA9FC890064498C /* 牧场管家.png in Resources */ = {isa = PBXBuildFile; fileRef = 43874D101DA9FC890064498C /* 牧场管家.png */; };
@@ -236,6 +246,16 @@
 		437F02431DED5A500039025A /* door1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door1_4.png; sourceTree = "<group>"; };
 		437F02461DED5A620039025A /* JYDoor1_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDoor1_4.m; sourceTree = "<group>"; };
 		437F02481DED5ABC0039025A /* JYDoor1_4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JYDoor1_4.sks; sourceTree = "<group>"; };
+		43864F791DF50D390089BDDE /* JJC_left2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JJC_left2.png; sourceTree = "<group>"; };
+		43864F7C1DF50D4F0089BDDE /* JJC_left2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJC_left2.m; sourceTree = "<group>"; };
+		43864F7E1DF50D9C0089BDDE /* JJC_left2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JJC_left2.sks; sourceTree = "<group>"; };
+		43864F811DF515070089BDDE /* JYPrinceDoor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPrinceDoor.m; sourceTree = "<group>"; };
+		43864F831DF515650089BDDE /* JYPrinceDoor.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JYPrinceDoor.sks; sourceTree = "<group>"; };
+		43864F851DF5157F0089BDDE /* princeDoor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = princeDoor.png; sourceTree = "<group>"; };
+		43864F871DF522250089BDDE /* middleBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleBook.png; sourceTree = "<group>"; };
+		43864F8A1DF549DC0089BDDE /* JYWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWell.m; sourceTree = "<group>"; };
+		43864F8C1DF54A110089BDDE /* JYWell.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JYWell.sks; sourceTree = "<group>"; };
+		43864F8E1DF54A1C0089BDDE /* well.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = well.png; sourceTree = "<group>"; };
 		43874D081DA9DF8D0064498C /* 鬃毛怪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鬃毛怪.png"; sourceTree = "<group>"; };
 		43874D0A1DA9EFE70064498C /* 小蝙蝠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小蝙蝠.png"; sourceTree = "<group>"; };
 		43874D101DA9FC890064498C /* 牧场管家.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牧场管家.png"; sourceTree = "<group>"; };
@@ -467,6 +487,8 @@
 		436667EA1D813CEC00FAC193 /* 场景3 */ = {
 			isa = PBXGroup;
 			children = (
+				43864F851DF5157F0089BDDE /* princeDoor.png */,
+				43864F791DF50D390089BDDE /* JJC_left2.png */,
 				4368FAE11DEEBD9000047A26 /* jjc.png */,
 				439DC2631D9BB08700DDA3E1 /* 拼接皇宫.png */,
 				430C5E461D9912DC00B8C41B /* 11111.png */,
@@ -481,10 +503,12 @@
 				433143481D86472600AA122C /* 云3.png */,
 				433143551D867D6A00AA122C /* 大树中部_竞技场.png */,
 				433143511D86658E00AA122C /* 大树国底部拼凑.png */,
+				43864F871DF522250089BDDE /* middleBook.png */,
 				433143531D86665300AA122C /* 大树国中部拼凑.png */,
 				4331435A1D868C1C00AA122C /* 大树国顶部.png */,
 				438DECCD1D8FEB7000AB0557 /* 皇宫存储室.png */,
 				4373BBCD1DA8E1FB00B2729B /* 22222.png */,
+				43864F8E1DF54A1C0089BDDE /* well.png */,
 			);
 			path = "场景3";
 			sourceTree = "<group>";
@@ -499,6 +523,12 @@
 				4373BBD11DA8F00C00B2729B /* JYTreeMiddleJJC.sks */,
 				433143581D8682F200AA122C /* JYTreeTop.m */,
 				4373BBCF1DA8EF4E00B2729B /* JYTreeTop.sks */,
+				43864F7C1DF50D4F0089BDDE /* JJC_left2.m */,
+				43864F7E1DF50D9C0089BDDE /* JJC_left2.sks */,
+				43864F811DF515070089BDDE /* JYPrinceDoor.m */,
+				43864F831DF515650089BDDE /* JYPrinceDoor.sks */,
+				43864F8A1DF549DC0089BDDE /* JYWell.m */,
+				43864F8C1DF54A110089BDDE /* JYWell.sks */,
 			);
 			path = "场景4_大树国_商场";
 			sourceTree = "<group>";
@@ -971,6 +1001,7 @@
 				43ECEEC61D800B850022B786 /* 孵化室背景2_1.png in Resources */,
 				43AB313B1DF010C0009B9908 /* JJC_left1.png in Resources */,
 				43E67CB91DE3EB87009B7604 /* JYDoor1_1.sks in Resources */,
+				43864F881DF522250089BDDE /* middleBook.png in Resources */,
 				43A1AFA01D7FAF530078E01F /* 墙.png in Resources */,
 				43A1AFAE1D7FAF530078E01F /* door5.png in Resources */,
 				4373BBCE1DA8E1FB00B2729B /* 22222.png in Resources */,
@@ -993,14 +1024,17 @@
 				43B4A1461D893F2900AF97EB /* 卷轴2.png in Resources */,
 				43A1AF991D7FAF530078E01F /* player3_.png in Resources */,
 				437D41A71DACD748007EEC43 /* 史莱姆1.png in Resources */,
+				43864F7A1DF50D390089BDDE /* JJC_left2.png in Resources */,
 				438DECC81D8FD6E200AB0557 /* left.png in Resources */,
 				43B4A13E1D891B9C00AF97EB /* 金钱物品.png in Resources */,
+				43864F861DF5157F0089BDDE /* princeDoor.png in Resources */,
 				43B4A1471D893F2900AF97EB /* 卷轴3.png in Resources */,
 				43A1AFA71D7FAF530078E01F /* 火炉.png in Resources */,
 				4331435F1D869DD600AA122C /* 皇宫1.png in Resources */,
 				43B4A1331D89017B00AF97EB /* 按下.png in Resources */,
 				43A1AF9E1D7FAF530078E01F /* 地板.png in Resources */,
 				43A1AF9B1D7FAF530078E01F /* player4_.png in Resources */,
+				43864F7F1DF50D9C0089BDDE /* JJC_left2.sks in Resources */,
 				43B4A13F1D891B9C00AF97EB /* 系统设置.png in Resources */,
 				437AC5E91D911ECC0015F9E5 /* 火炉_3.png in Resources */,
 				4373BBDA1DA8F0A400B2729B /* JYIncubateScene2.sks in Resources */,
@@ -1031,6 +1065,7 @@
 				43A1AFB21D7FAF530078E01F /* door9.png in Resources */,
 				4373BBD41DA8F03300B2729B /* JYTreeMiddle.sks in Resources */,
 				437D41AF1DACDB01007EEC43 /* war.png in Resources */,
+				43864F841DF515650089BDDE /* JYPrinceDoor.sks in Resources */,
 				43A1AF9F1D7FAF530078E01F /* 坏哥布林.png in Resources */,
 				43A1AFAA1D7FAF530078E01F /* door1.png in Resources */,
 				436667E31D81081000FAC193 /* 孵化室_npc2_3.png in Resources */,
@@ -1047,10 +1082,12 @@
 				43AB31391DF010A7009B9908 /* JJC_left.sks in Resources */,
 				4373BBD21DA8F00C00B2729B /* JYTreeMiddleJJC.sks in Resources */,
 				436667E51D810B6000FAC193 /* 书架.png in Resources */,
+				43864F8D1DF54A110089BDDE /* JYWell.sks in Resources */,
 				435320E81DAB43B600F0E9B3 /* 蝙蝠.png in Resources */,
 				437AC5E71D911ECC0015F9E5 /* 火炉_1.png in Resources */,
 				43A1AFA41D7FAF530078E01F /* 抽屉.png in Resources */,
 				438DECCE1D8FEB7000AB0557 /* 皇宫存储室.png in Resources */,
+				43864F8F1DF54A1C0089BDDE /* well.png in Resources */,
 				4311CB751DE2D76400B46C81 /* JYDoor1.sks in Resources */,
 				439555181DA89177008CB0B4 /* Default@2x.png in Resources */,
 				437AC5E81D911ECC0015F9E5 /* 火炉_2.png in Resources */,
@@ -1091,6 +1128,7 @@
 				4368FADE1DEEBD0A00047A26 /* JYJJC.m in Sources */,
 				438DECD11D8FECE700AB0557 /* JYImperialCollection.m in Sources */,
 				43A1B0281D7FAFE40078E01F /* TopBtn.m in Sources */,
+				43864F8B1DF549DC0089BDDE /* JYWell.m in Sources */,
 				43A1AFF61D7FAFBC0078E01F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				43A1AFF21D7FAFBC0078E01F /* MASLayoutConstraint.m in Sources */,
 				43A1B0341D7FB01F0078E01F /* BaseScene.m in Sources */,
@@ -1112,6 +1150,7 @@
 				43A1B0371D7FB01F0078E01F /* JYDataBase.m in Sources */,
 				43A1B0121D7FAFCD0078E01F /* JYIncubateScene2.m in Sources */,
 				43A1B0261D7FAFE40078E01F /* LeftBtn.m in Sources */,
+				43864F7D1DF50D4F0089BDDE /* JJC_left2.m in Sources */,
 				43A1AF5F1D7FAF3B0078E01F /* HUTransitionVerticalLinesAnimator.m in Sources */,
 				436667E91D813CA800FAC193 /* JYTreeBottom.m in Sources */,
 				43A1AFF51D7FAFBC0078E01F /* NSArray+MASAdditions.m in Sources */,
@@ -1121,6 +1160,7 @@
 				43A1B0251D7FAFE40078E01F /* JYOperateManager.m in Sources */,
 				43A1AF391D7FAF090078E01F /* main.m in Sources */,
 				433143501D86542800AA122C /* JYTreeMiddleJJC.m in Sources */,
+				43864F821DF515070089BDDE /* JYPrinceDoor.m in Sources */,
 				43A1B0111D7FAFCD0078E01F /* JYIncubateScene.m in Sources */,
 				4311CB731DE2D73300B46C81 /* JYDoor1.m in Sources */,
 				436667EF1D816E9600FAC193 /* JYHomeScene.m in Sources */,

@@ -130,7 +130,6 @@
     
     BOOL isCut = NO;
  
-    NSLog(@"%d",(int)self.player.position.y);
     
     if ((int)self.player.position.x != (int)_playerCutPosition.x || (int)self.player.position.y != (int)_playerCutPosition.y) {
         isCut = YES;

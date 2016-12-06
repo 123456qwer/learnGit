@@ -29,10 +29,8 @@
     self.physicsWorld.contactDelegate = self;
     
     [self setFrame];
-    [self _setBg:[UIImage imageNamed:@"大树中部_竞技场.png"]];
     
-  
-    
+ 
     if ([kDeviceVersion floatValue] < 8.0) {
         
     }else{
@@ -54,6 +52,9 @@
     //JJC里边
     [self setchangeSenceWithSuperNode:_bg key:kSence_JJC];
     
+    //jjc_left2
+    [self setchangeSenceWithSuperNode:_bg key:kSence_JJC_left2];
+    
     //怪物
     [self setMonsterWithSuperSence:_bg imageNames:@[@"史莱姆.png",@"蝙蝠.png",@"史莱姆.png"]];
 }
@@ -68,7 +69,7 @@
     
     if ([A.userData objectForKey:kSence_treeMiddle]) {
         
-        [self presentSceneWithPosition:CGPointMake(135 + self.player.size.width / 2.0 + 5,self.screenHeight - self.player.size.height / 2.0 - 5) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"down"][0] key:kSence_treeMiddle tra:nil];
+        [self presentSceneWithPosition:CGPointMake(135 + self.player.size.width / 2.0 + 5,self.screenHeight - self.player.size.height / 2.0 - 10) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"down"][0] key:kSence_treeMiddle tra:nil];
     }
     
     else if([A.userData objectForKey:kSence_treeTop]){
@@ -82,6 +83,13 @@
         [self presentSceneWithPosition:CGPointMake(1000, 30) scenePosition:CGPointMake(-667, 0) texture:self.dic_player[@"up"][0] key:kSence_JJC tra:nil];
         
     }
+    
+    else if([A.userData objectForKey:kSence_JJC_left2]){
+    
+          [self presentSceneWithPosition:CGPointMake(165, 30) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"up"][0] key:kSence_JJC_left2 tra:nil];
+        
+    }
+    
 }
 
 

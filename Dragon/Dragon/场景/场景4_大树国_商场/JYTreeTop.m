@@ -44,6 +44,9 @@
     [self _createImperialPlace];
 
     [self setMonsterWithSuperSence:self];
+    
+    //怪物
+    [self setMonsterWithSuperSence:self imageNames:@[@"史莱姆.png",@"蝙蝠.png",@"史莱姆.png"]];
 
 }
 
