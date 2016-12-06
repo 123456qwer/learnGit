@@ -103,6 +103,18 @@
 @interface JYWell : BaseScene
 @end
 
+@interface JYBookLibrary : BaseScene
+@end
+
+
+@interface JYStore : BaseScene
+@end
+
+@interface JYBigStore : BaseScene
+
+@end
+
+
 //测试
 @interface TextScene : BaseScene
 @end

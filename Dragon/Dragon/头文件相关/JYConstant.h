@@ -30,6 +30,9 @@
 #define kSence_JJC_left2    @"JJC_left2"
 #define kSence_PrinceDoor   @"JYPrinceDoor"
 #define kSence_well         @"JYWell"
+#define kSence_bookLibrary  @"JYBookLibrary"
+#define kSence_store        @"JYStore"
+#define kSence_BigStore     @"JYBigStore"
 
 #define kSence_text @"TextScene"
 

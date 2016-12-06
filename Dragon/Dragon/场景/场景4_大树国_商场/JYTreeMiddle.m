@@ -48,8 +48,17 @@
     //bottom
     [self setchangeSenceWithSuperNode:_bg key:kSence_treeBottom];
     
-    //Well
+    //JYWell
     [self setchangeSenceWithSuperNode:_bg key:kSence_well];
+    
+    //JYBookLibrary
+    [self setchangeSenceWithSuperNode:_bg key:kSence_bookLibrary];
+    
+    //JYStore
+    [self setchangeSenceWithSuperNode:_bg key:kSence_store];
+    
+    //JYBigStore
+    [self setchangeSenceWithSuperNode:_bg key:kSence_BigStore];
     
 }
 
@@ -76,7 +85,23 @@
         [self presentSceneWithPosition:CGPointMake(300, 700) scenePosition:CGPointMake(0, -375) texture:self.dic_player[@"up"][0] key:kSence_well tra:nil];
     }
     
+    else if([A.userData objectForKey:kSence_bookLibrary])
+    {
+        
+        [self presentSceneWithPosition:CGPointMake(365, 30) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"up"][0] key:kSence_bookLibrary tra:nil];
+    }
     
+    else if([A.userData objectForKey:kSence_store])
+    {
+        
+        [self presentSceneWithPosition:CGPointMake(365, 30) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"up"][0] key:kSence_store tra:nil];
+    }
+    
+    else if([A.userData objectForKey:kSence_BigStore])
+    {
+        
+        [self presentSceneWithPosition:CGPointMake(30, 585) scenePosition:CGPointMake(0, 0) texture:self.dic_player[@"right"][0] key:kSence_BigStore tra:nil];
+    }
 }
 
 - (BOOL)moveActionWithkey:(NSString *)key x:(CGFloat)x y:(CGFloat)y

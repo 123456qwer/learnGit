@@ -80,6 +80,15 @@
 		438DECCA1D8FD6E200AB0557 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 438DECC61D8FD6E200AB0557 /* up.png */; };
 		438DECCE1D8FEB7000AB0557 /* 皇宫存储室.png in Resources */ = {isa = PBXBuildFile; fileRef = 438DECCD1D8FEB7000AB0557 /* 皇宫存储室.png */; };
 		438DECD11D8FECE700AB0557 /* JYImperialCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 438DECD01D8FECE700AB0557 /* JYImperialCollection.m */; };
+		439293B81DF69615006BA459 /* bookLibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = 439293B71DF69615006BA459 /* bookLibrary.png */; };
+		439293BB1DF6962E006BA459 /* JYBookLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 439293BA1DF6962E006BA459 /* JYBookLibrary.m */; };
+		439293BD1DF6965C006BA459 /* JYBookLibrary.sks in Resources */ = {isa = PBXBuildFile; fileRef = 439293BC1DF6965C006BA459 /* JYBookLibrary.sks */; };
+		439293BF1DF6A3B5006BA459 /* stor.png in Resources */ = {isa = PBXBuildFile; fileRef = 439293BE1DF6A3B5006BA459 /* stor.png */; };
+		439293C21DF6A3D9006BA459 /* JYStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 439293C11DF6A3D9006BA459 /* JYStore.m */; };
+		439293C41DF6A423006BA459 /* JYStore.sks in Resources */ = {isa = PBXBuildFile; fileRef = 439293C31DF6A423006BA459 /* JYStore.sks */; };
+		439293C71DF6B4FE006BA459 /* JYBigStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 439293C61DF6B4FE006BA459 /* JYBigStore.m */; };
+		439293C91DF6B523006BA459 /* JYBigStore.sks in Resources */ = {isa = PBXBuildFile; fileRef = 439293C81DF6B523006BA459 /* JYBigStore.sks */; };
+		439293CB1DF6B53B006BA459 /* BigStore.png in Resources */ = {isa = PBXBuildFile; fileRef = 439293CA1DF6B53B006BA459 /* BigStore.png */; };
 		439555161DA89177008CB0B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439555131DA89177008CB0B4 /* Default-568h@2x.png */; };
 		439555171DA89177008CB0B4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 439555141DA89177008CB0B4 /* Default.png */; };
 		439555181DA89177008CB0B4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439555151DA89177008CB0B4 /* Default@2x.png */; };
@@ -266,6 +275,15 @@
 		438DECC61D8FD6E200AB0557 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 		438DECCD1D8FEB7000AB0557 /* 皇宫存储室.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "皇宫存储室.png"; sourceTree = "<group>"; };
 		438DECD01D8FECE700AB0557 /* JYImperialCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYImperialCollection.m; sourceTree = "<group>"; };
+		439293B71DF69615006BA459 /* bookLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookLibrary.png; sourceTree = "<group>"; };
+		439293BA1DF6962E006BA459 /* JYBookLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBookLibrary.m; sourceTree = "<group>"; };
+		439293BC1DF6965C006BA459 /* JYBookLibrary.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JYBookLibrary.sks; sourceTree = "<group>"; };
+		439293BE1DF6A3B5006BA459 /* stor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stor.png; sourceTree = "<group>"; };
+		439293C11DF6A3D9006BA459 /* JYStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYStore.m; sourceTree = "<group>"; };
+		439293C31DF6A423006BA459 /* JYStore.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JYStore.sks; sourceTree = "<group>"; };
+		439293C61DF6B4FE006BA459 /* JYBigStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBigStore.m; sourceTree = "<group>"; };
+		439293C81DF6B523006BA459 /* JYBigStore.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JYBigStore.sks; sourceTree = "<group>"; };
+		439293CA1DF6B53B006BA459 /* BigStore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BigStore.png; sourceTree = "<group>"; };
 		439555131DA89177008CB0B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		439555141DA89177008CB0B4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		439555151DA89177008CB0B4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -509,6 +527,9 @@
 				438DECCD1D8FEB7000AB0557 /* 皇宫存储室.png */,
 				4373BBCD1DA8E1FB00B2729B /* 22222.png */,
 				43864F8E1DF54A1C0089BDDE /* well.png */,
+				439293B71DF69615006BA459 /* bookLibrary.png */,
+				439293BE1DF6A3B5006BA459 /* stor.png */,
+				439293CA1DF6B53B006BA459 /* BigStore.png */,
 			);
 			path = "场景3";
 			sourceTree = "<group>";
@@ -529,6 +550,12 @@
 				43864F831DF515650089BDDE /* JYPrinceDoor.sks */,
 				43864F8A1DF549DC0089BDDE /* JYWell.m */,
 				43864F8C1DF54A110089BDDE /* JYWell.sks */,
+				439293BA1DF6962E006BA459 /* JYBookLibrary.m */,
+				439293BC1DF6965C006BA459 /* JYBookLibrary.sks */,
+				439293C11DF6A3D9006BA459 /* JYStore.m */,
+				439293C31DF6A423006BA459 /* JYStore.sks */,
+				439293C61DF6B4FE006BA459 /* JYBigStore.m */,
+				439293C81DF6B523006BA459 /* JYBigStore.sks */,
 			);
 			path = "场景4_大树国_商场";
 			sourceTree = "<group>";
@@ -977,6 +1004,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B4A1451D893F2900AF97EB /* 卷轴1.png in Resources */,
+				439293B81DF69615006BA459 /* bookLibrary.png in Resources */,
 				4373BBD01DA8EF4E00B2729B /* JYTreeTop.sks in Resources */,
 				43A1AFB11D7FAF530078E01F /* door8.png in Resources */,
 				437F02441DED5A500039025A /* door1_4.png in Resources */,
@@ -1000,6 +1028,7 @@
 				43A1B0151D7FAFCD0078E01F /* 登录画面.png in Resources */,
 				43ECEEC61D800B850022B786 /* 孵化室背景2_1.png in Resources */,
 				43AB313B1DF010C0009B9908 /* JJC_left1.png in Resources */,
+				439293BD1DF6965C006BA459 /* JYBookLibrary.sks in Resources */,
 				43E67CB91DE3EB87009B7604 /* JYDoor1_1.sks in Resources */,
 				43864F881DF522250089BDDE /* middleBook.png in Resources */,
 				43A1AFA01D7FAF530078E01F /* 墙.png in Resources */,
@@ -1032,6 +1061,7 @@
 				43A1AFA71D7FAF530078E01F /* 火炉.png in Resources */,
 				4331435F1D869DD600AA122C /* 皇宫1.png in Resources */,
 				43B4A1331D89017B00AF97EB /* 按下.png in Resources */,
+				439293C41DF6A423006BA459 /* JYStore.sks in Resources */,
 				43A1AF9E1D7FAF530078E01F /* 地板.png in Resources */,
 				43A1AF9B1D7FAF530078E01F /* player4_.png in Resources */,
 				43864F7F1DF50D9C0089BDDE /* JJC_left2.sks in Resources */,
@@ -1049,10 +1079,12 @@
 				435D6F931DDAEE47006F5894 /* JYPrison1.sks in Resources */,
 				437D41B11DACDFAC007EEC43 /* 德拉奇.png in Resources */,
 				433143521D86658E00AA122C /* 大树国底部拼凑.png in Resources */,
+				439293CB1DF6B53B006BA459 /* BigStore.png in Resources */,
 				43A1AF981D7FAF530078E01F /* player3.png in Resources */,
 				43B4A14A1D8941A500AF97EB /* 卷轴4.png in Resources */,
 				4395551C1DA89E95008CB0B4 /* JYImperialPlace.sks in Resources */,
 				4368FAE01DEEBD6C00047A26 /* JYJJC.sks in Resources */,
+				439293BF1DF6A3B5006BA459 /* stor.png in Resources */,
 				43874D0B1DA9EFE70064498C /* 小蝙蝠.png in Resources */,
 				43A1AFB01D7FAF530078E01F /* door7.png in Resources */,
 				439555171DA89177008CB0B4 /* Default.png in Resources */,
@@ -1070,6 +1102,7 @@
 				43A1AFAA1D7FAF530078E01F /* door1.png in Resources */,
 				436667E31D81081000FAC193 /* 孵化室_npc2_3.png in Resources */,
 				437F02491DED5ABC0039025A /* JYDoor1_4.sks in Resources */,
+				439293C91DF6B523006BA459 /* JYBigStore.sks in Resources */,
 				43AB31421DF0151B009B9908 /* JJC_right.sks in Resources */,
 				4331434A1D86472600AA122C /* 云2.png in Resources */,
 				43A1AFA11D7FAF530078E01F /* 好哥布林.png in Resources */,
@@ -1129,6 +1162,7 @@
 				438DECD11D8FECE700AB0557 /* JYImperialCollection.m in Sources */,
 				43A1B0281D7FAFE40078E01F /* TopBtn.m in Sources */,
 				43864F8B1DF549DC0089BDDE /* JYWell.m in Sources */,
+				439293BB1DF6962E006BA459 /* JYBookLibrary.m in Sources */,
 				43A1AFF61D7FAFBC0078E01F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				43A1AFF21D7FAFBC0078E01F /* MASLayoutConstraint.m in Sources */,
 				43A1B0341D7FB01F0078E01F /* BaseScene.m in Sources */,
@@ -1137,6 +1171,7 @@
 				43AB313E1DF01491009B9908 /* JJC_right.m in Sources */,
 				43A1B0141D7FAFCD0078E01F /* JYStartGame.m in Sources */,
 				436667F31D816FC000FAC193 /* JYStoreScene.m in Sources */,
+				439293C21DF6A3D9006BA459 /* JYStore.m in Sources */,
 				433143591D8682F200AA122C /* JYTreeTop.m in Sources */,
 				43A1AFF11D7FAFBC0078E01F /* MASConstraintMaker.m in Sources */,
 				43E67CB71DE3EB31009B7604 /* JYDoor1_1.m in Sources */,
@@ -1160,6 +1195,7 @@
 				43A1B0251D7FAFE40078E01F /* JYOperateManager.m in Sources */,
 				43A1AF391D7FAF090078E01F /* main.m in Sources */,
 				433143501D86542800AA122C /* JYTreeMiddleJJC.m in Sources */,
+				439293C71DF6B4FE006BA459 /* JYBigStore.m in Sources */,
 				43864F821DF515070089BDDE /* JYPrinceDoor.m in Sources */,
 				43A1B0111D7FAFCD0078E01F /* JYIncubateScene.m in Sources */,
 				4311CB731DE2D73300B46C81 /* JYDoor1.m in Sources */,
